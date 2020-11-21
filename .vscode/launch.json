@@ -14,7 +14,7 @@
         "runtimeExecutable": "nodemon",
         "env": {
           "NODE_ENV": "development",
-          "DEBUG": "express-ejs-template:*"
+          "DEBUG": "validation:*"
         },
         "skipFiles": [
           "<node_internals>/**"
