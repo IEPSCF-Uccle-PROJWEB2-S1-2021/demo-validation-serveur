@@ -1,6 +1,7 @@
 const forms = document.querySelectorAll('.needs-validation');
 
-// Loop over them and prevent submission
+// Enable Bootstrap validation custom styles
+// https://v5.getbootstrap.com/docs/5.0/forms/validation/#custom-styles
 forms.forEach((form) => {
   form.addEventListener(
     'submit',
